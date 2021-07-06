@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" type="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>My Movie list</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>My Movie list</h1>
+    </header>
+
+    <main>
+
+        <div id='style'>
+            <form id="form">
+            <fieldset id='fieldset'>
+                
+                    <legend>New Movie</legend>
+
+
+
+                    <div>
+                        <label name="name">Name</label>
+                        <input type="text" name='name' id='name'>
+                    </div>
+
+                    <div>
+                        <label name="path">Image</label>
+                        <select type='text' id='select' name='select'>
+                            <option value="Action">Action</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Animation">Animation</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Detective">Detective</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="History">History</option>
+                            <option value="Horror">Horror</option>
+                            <option value="Musical">Musical</option>
+                            <option value="Pirate">Pirate</option>
+                            <option value="Romantic">Romantic</option>
+                            <option value="SCI-FI">SCI-FI</option>
+                            <option value="War">War</option>
+                            <option value="Western">Western</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label name="year">Release</label>
+                        <input type="text" name="year" id="year">
+                    </div>
+
+                    <div id="button">
+                        <button type="submit" id="save">Save</button>
+                        <button type="click" id="remove">Clear list</button>
+                    </div>
+                
+            </fieldset>
+        </form>
+            <table id="table">
+
+            </table>
+        </div>
+
+
+    </main>
+
+    <footer>all right reserved 2021&copy; ASAC</footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
